@@ -1,0 +1,18 @@
+{
+  "name": "theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "release": "dojo build theme -n myTheme",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@dojo/cli": "^6.0.0",
+    "@dojo/cli-build-theme": "^6.0.0",
+    "@dojo/widgets": "^7.0.5",
+    "typescript": "2.6.2"
+  }
+}
